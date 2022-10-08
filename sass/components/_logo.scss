@@ -1,20 +1,24 @@
 .logo {
+    display: block;
     margin-right: 90px;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
-    &__first-letter {
+}
+.logo__first-letter {
         color: $accent-color;
     }
 
-    &__second-letter {
+.logo__second-letter {
         color: #000
     }
 
-    &__second-letter--footer{
+.logo__second-letter--footer{
         color: #fff;
     }
+
+.logo--footer {
+    margin-bottom: 20px;
 }

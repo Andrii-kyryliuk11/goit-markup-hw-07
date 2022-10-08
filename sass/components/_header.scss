@@ -5,7 +5,9 @@
     align-items: center;
 }
 
-.header-nav {}
+.header {
+    border-bottom: 1px solid $border-color;
+}
 
 .site-nav {
     display: flex;
@@ -32,11 +34,12 @@
 .header-contacts {
     display: flex;
     gap: 50px;
-    padding: 32px 0px;
 }
 
 .header-contacts__mail,
 .header-contacts__phone {
+    display: flex;
+    align-items: center;
     padding: 32px 0px;
     color: $font-text-color;
     font-style: normal;
