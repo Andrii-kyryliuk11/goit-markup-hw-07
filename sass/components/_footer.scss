@@ -5,7 +5,7 @@
 
 .footer__container {
     display: flex;
-
+    align-items: baseline;
 }
 
 .adress {
@@ -137,11 +137,4 @@
 
 .submit-icon {
     fill: #fff;
-}
-
-.button--footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
 }
